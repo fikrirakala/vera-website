@@ -1,1 +1,25 @@
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../images/header-background.jpg");
+  background-size: cover;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
 
+.vertical-decoration {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+}
+
+.xl-text {
+  font-size: 65px;
+}
+
+@media (max-width: 991px) {
+  .header {
+    background-position: center center;
+  }
+  .xl-text {
+    font-size: 50px;
+  }
+}
